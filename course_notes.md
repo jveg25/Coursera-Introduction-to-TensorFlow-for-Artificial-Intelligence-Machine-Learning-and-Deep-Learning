@@ -12,7 +12,14 @@ In the example of image classification, the number are between 0 and 255. If you
 
 Rules of thumb:
 - The number of neurons in the last layer should match the number of classes you are classifying for. In this case it's the digits 0-9, so there are 10 of them, hence you should have 10 neurons in your final layer.
-- There isn't a significant impact of adding another layers - because this is relatively simple data. For far more complex data (including color images to be classified as flowers that you'll see in the next lesson), extra layers are often necessary. 
+- There isn't a significant impact of adding another layers - because this is relatively simple data. For far more complex data (including color images to be classified as flowers that you'll see in the next lesson), extra layers are often necessary.
+
+<u> Callbacks </u>
+
+<img width="919" alt="image" src="https://github.com/user-attachments/assets/d5c0e363-ae77-4dd4-b62f-bb31cab10b07" />
+
+<img width="919" alt="image" src="https://github.com/user-attachments/assets/f0d914a6-a35a-491f-8405-34c84c78f01e" />
+
 
 # Links
 
