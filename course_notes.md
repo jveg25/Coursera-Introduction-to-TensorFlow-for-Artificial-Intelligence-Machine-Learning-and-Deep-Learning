@@ -1,5 +1,9 @@
+# Week 01
 
 
+# Week 02
+
+<img width="601" alt="image" src="https://github.com/user-attachments/assets/3734325f-cf70-4151-bb20-d481ec1adffa" />
 
 
 
