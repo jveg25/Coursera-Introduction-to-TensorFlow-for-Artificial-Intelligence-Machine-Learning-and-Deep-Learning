@@ -1,7 +1,17 @@
-# Week 01
+Taught by:
+Laurence Moroney, Instructor
 
+# Week 01 - A New Programming Paradigm
 
-# Week 02
+<img width="1187" alt="image" src="https://github.com/user-attachments/assets/b08c4f5a-0564-470a-b05a-3bc3378b78ba" />
+
+<img width="1302" alt="image" src="https://github.com/user-attachments/assets/c4c8d377-abf2-463b-ac5c-378bb929cd25" />
+
+- Dense defines the number of layers
+- sgd: stochastic gradient descent
+- epochs: the fit algorithm will go through training loop 500 times
+
+# Week 02 - Introduction to Computer Vision
 
 <img width="601" alt="image" src="https://github.com/user-attachments/assets/3734325f-cf70-4151-bb20-d481ec1adffa" />
 
@@ -27,7 +37,7 @@ In the example of image classification, the number are between 0 and 255. If you
 
 - Softmax
 
-# Week 03
+# Week 03 - Enhancing Vision with Convolutional Neural Networks
 
 Convolutional ANN
 
@@ -39,6 +49,8 @@ This filter emphazied horizontal lines
 
 <img width="919" alt="image" src="https://github.com/user-attachments/assets/0f1f5099-d772-489d-812e-0cee3570b514" />
 
+
+# Week 04 - Using Real-world Images
 
 
 # Links
