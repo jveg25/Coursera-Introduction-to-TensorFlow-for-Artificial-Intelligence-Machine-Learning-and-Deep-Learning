@@ -20,6 +20,13 @@ In the example of image classification, the number are between 0 and 255. If you
 
 <img width="919" alt="image" src="https://github.com/user-attachments/assets/f0d914a6-a35a-491f-8405-34c84c78f01e" />
 
+
+## Functions
+
+- ReLU
+
+- Softmax
+
 # Week 03
 
 Convolutional ANN
