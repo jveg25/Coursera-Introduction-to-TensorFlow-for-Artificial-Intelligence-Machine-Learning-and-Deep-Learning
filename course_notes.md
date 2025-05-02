@@ -109,6 +109,41 @@ Think of it as a way to:
 # Week 04 - Using Real-world Images
 
 
+- Utility form Keras to load image dataset from directory: 
+
+  - <img width="741" alt="image" src="https://github.com/user-attachments/assets/7e94b979-01f0-4c96-be90-6e672edd6bb4" />
+
+- Example of image directory:
+
+  - <img width="926" alt="image" src="https://github.com/user-attachments/assets/07f8814f-f065-47cb-b621-8b2683a68f51" />
+
+## Train dataset
+
+<img width="926" alt="image" src="https://github.com/user-attachments/assets/ff5d42cd-3509-49a7-8b14-a1c9513a1fc2" />
+
+- Pointing th eTRAIN_DIR
+- Resize images to 300x300
+- batch size of 128 will be transformed and loaded in batches
+- label_mode: binary to set if the label is horse or human
+
+<img width="926" alt="image" src="https://github.com/user-attachments/assets/22b2fdc1-4eea-4814-a443-52417b77db0f" />
+
+- scaling numeric values in the image from 255 to 0-1
+- With map apply the tranformation to all images
+
+
+<img width="926" alt="image" src="https://github.com/user-attachments/assets/fb06da5f-e925-447c-96d8-e5ab0fccbb8d" />
+
+- shuffle: picks elements at random
+
+## Validation dataset
+
+<img width="926" alt="image" src="https://github.com/user-attachments/assets/10b9a714-62ba-4e6f-8dd0-989e31027ea1" />
+
+- Similar to train dataset. Except no shuffle is required.
+
+
+
 # Links
 
 - Playground with neural networks
