@@ -96,6 +96,15 @@ Think of it as a way to:
 - Reduce memory usage
 - Make the network more robust to small shifts and distortions in the input (e.g. if an object moves slightly in an image)
 
+### Code:
+
+<img width="929" alt="image" src="https://github.com/user-attachments/assets/959602f6-a04c-45bb-be95-dd3c5ff28f3f" />
+
+- We are adding 64 filters with 3x3 size
+- MaxPooling2D means that we are taking the maximum size of the matrix 2x2. What this does is to reduce the size of the image.
+- 
+
+
 
 # Week 04 - Using Real-world Images
 
@@ -108,5 +117,8 @@ Think of it as a way to:
 
 - Youtube TensorFlow
   - https://www.youtube.com/tensorflow
+ 
+- Convolutinal Neural Networks Course:
+- https://www.youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF
 
 
