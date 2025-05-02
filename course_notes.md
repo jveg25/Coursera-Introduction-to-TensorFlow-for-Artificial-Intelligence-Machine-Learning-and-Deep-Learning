@@ -39,7 +39,37 @@ In the example of image classification, the number are between 0 and 255. If you
 
 # Week 03 - Enhancing Vision with Convolutional Neural Networks
 
-Convolutional ANN
+## Convolutional Neural Networks
+
+Instead of treating all input features equally (like traditional neural networks), CNNs use filters (also called kernels) that scan across the image, picking up important patterns like edges, textures, and shapes. This scanning process is called a convolution, hence the name.
+
+### 🧠 Basic CNN Structure
+
+1.	Input Layer
+
+Receives the raw image data (e.g., 28x28 grayscale image).
+
+2.	Convolutional Layers
+
+Applies filters that detect patterns (e.g., vertical lines, corners). These filters are learned during training.
+
+3.	Activation Function (ReLU)
+
+Introduces non-linearity, helping the network learn complex patterns.
+
+4.	Pooling Layers (e.g., MaxPooling)
+
+Reduces the spatial size of the data, making the model faster and less likely to overfit.
+
+5.	Fully Connected Layers
+
+After pattern extraction, these layers make the final decision (like classifying an image as a cat or dog).
+
+6.	Output Layer
+
+Gives the final result (e.g., probabilities of classes).
+
+### Filter Examples:
 
 This filter emphazied vertical lines
 
@@ -48,6 +78,23 @@ This filter emphazied vertical lines
 This filter emphazied horizontal lines
 
 <img width="919" alt="image" src="https://github.com/user-attachments/assets/0f1f5099-d772-489d-812e-0cee3570b514" />
+
+### Example Use Cases
+
+- Image classification (e.g., dog vs. cat)
+- Object detection (e.g., where’s the face in the photo?)
+- Medical image analysis (e.g., detecting tumors)
+- Facial recognition
+- Self-driving cars (e.g., reading road signs)
+
+### Pooling Layer
+
+A Pooling Layer is a downsampling operation — it shrinks the size of the feature maps that come from the convolutional layers, while keeping the important information.
+
+Think of it as a way to:
+- Make the model faster
+- Reduce memory usage
+- Make the network more robust to small shifts and distortions in the input (e.g. if an object moves slightly in an image)
 
 
 # Week 04 - Using Real-world Images
