@@ -143,6 +143,16 @@ Think of it as a way to:
 - Similar to train dataset. Except no shuffle is required.
 
 
+## ConvNet to use complex imagens
+
+<img width="926" alt="image" src="https://github.com/user-attachments/assets/f864bc77-29ff-4d25-9fe9-42e3ef1a674d" />
+
+- We use now color images, so Input(shape=(300,300,3)) we use 3 instead of 1
+- We use sigmoid instead of softmax for binary classfication and also only one neuron in the last layer
+
+
+
+
 
 # Links
 
